@@ -6,7 +6,7 @@ import heroImage from '@/assets/hero-fashion.jpg';
 
 const Hero = () => {
   return (
-    <section className="relative h-[70vh] md:h-[80vh] overflow-hidden bg-gradient-subtle">
+    <section className="relative h-[70vh] md:h-[90vh] overflow-hidden bg-gradient-subtle">
       <div className="absolute inset-0">
         <img
           src={heroImage}
