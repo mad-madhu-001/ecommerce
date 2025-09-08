@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Warm Boutique Fashion Theme */
+    --background: 28 67% 97%; /* Warm cream background #FFF8F3 */
+    --foreground: 220 26% 14%; /* Charcoal #111827 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 26% 14%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 26% 14%;
+
+    --primary: 220 26% 14%; /* Charcoal #111827 */
+    --primary-foreground: 28 67% 97%;
+
+    --secondary: 20 91% 48%; /* Warm Orange #F97316 */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 14% 64%; /* Soft gray #9CA3AF */
+    --muted-foreground: 220 26% 14%;
+
+    --accent: 343 75% 51%; /* Rose #E11D48 */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 13% 91%;
+    --input: 0 0% 100%;
+    --ring: 20 91% 48%;
+
+    /* Design tokens for fashion boutique */
+    --warm-orange: 20 91% 48%; /* #F97316 */
+    --rose-accent: 343 75% 51%; /* #E11D48 */
+    --charcoal: 220 26% 14%; /* #111827 */
+    --cream: 28 67% 97%; /* #FFF8F3 */
+    --soft-gray: 220 14% 64%; /* #9CA3AF */
+
+    /* Gradients */
+    --gradient-warm: linear-gradient(135deg, hsl(var(--warm-orange)) 0%, hsl(var(--rose-accent)) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(var(--cream)) 100%);
+
+    /* Shadows */
+    --shadow-soft: 0 2px 8px -2px hsl(var(--charcoal) / 0.1);
+    --shadow-elegant: 0 4px 16px -4px hsl(var(--charcoal) / 0.15);
+    --shadow-warm: 0 8px 32px -8px hsl(var(--warm-orange) / 0.2);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 26% 14%;
+    --foreground: 28 67% 97%;
+
+    --card: 220 39% 18%;
+    --card-foreground: 28 67% 97%;
+
+    --popover: 220 39% 18%;
+    --popover-foreground: 28 67% 97%;
+
+    --primary: 28 67% 97%;
+    --primary-foreground: 220 26% 14%;
+
+    --secondary: 20 91% 48%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 39% 18%;
+    --muted-foreground: 220 14% 64%;
+
+    --accent: 343 75% 51%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 39% 18%;
+    --input: 220 39% 18%;
+    --ring: 20 91% 48%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
