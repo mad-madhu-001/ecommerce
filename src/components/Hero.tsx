@@ -6,11 +6,11 @@ import heroImage from '@/assets/hero-fashion.jpg';
 
 const Hero = () => {
   return (
-    <section className="relative h-[70vh] md:h-[80vh] overflow-hidden bg-gradient-subtle">
+    <section className="relative h-[70vh] md:h-[90vh] overflow-hidden bg-gradient-subtle">
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Fashion Boutique Collection"
+          alt="Fashion FreshWear Collection"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-charcoal/40" />
@@ -20,13 +20,13 @@ const Hero = () => {
         <div className="max-w-2xl text-white">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-card/20 backdrop-blur-sm border border-white/20 mb-6">
             <Sparkles className="h-4 w-4 mr-2 text-warm-orange" />
-            <span className="text-sm font-medium">New Collection 2024</span>
+            <span className="text-sm font-medium">New Collection 2025</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Discover Your
             <span className="block bg-gradient-warm bg-clip-text text-transparent">
-              Perfect Style
+              Perfect FitAura
             </span>
           </h1>
           

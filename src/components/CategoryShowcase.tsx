@@ -7,26 +7,27 @@ import { ArrowRight } from 'lucide-react';
 const CategoryShowcase = () => {
   const showcaseCategories = [
     {
-      id: 'women',
-      title: 'Women\'s Collection',
-      description: 'Elegant ethnic wear and modern fashion',
-      image: '/lovable-uploads/ead80a58-46cb-492f-a0a9-14d813528f5b.png',
-      bgColor: 'bg-rose-accent/10'
-    },
-    {
-      id: 'men',
-      title: 'Men\'s Fashion',
-      description: 'Sophisticated styles for every occasion',
-      image: '/lovable-uploads/78103555-4bf0-4de0-9c29-c1aec986ac54.png',
-      bgColor: 'bg-warm-orange/10'
-    },
-    {
-      id: 'kids',
-      title: 'Kids Wear',
-      description: 'Comfortable and adorable outfits',
-      image: '/lovable-uploads/b97b5af5-ace2-4776-938b-462fc795810c.png',
-      bgColor: 'bg-secondary/10'
-    }
+  id: 'women',
+  title: "Women's Collection",
+  description: 'Elegant ethnic wear and modern fashion',
+  image: '/ecommerce-uploads/women-6.jpg',
+  bgColor: 'bg-rose-accent/10'
+},
+{
+  id: 'men',
+  title: "Men's Fashion",
+  description: 'Sophisticated styles for every occasion',
+  image: '/ecommerce-uploads/men-7.jpg',
+  bgColor: 'bg-warm-orange/10'
+},
+{
+  id: 'kids',
+  title: "Kids Wear",
+  description: 'Comfortable and adorable outfits',
+  image: '/ecommerce-uploads/boy-3.jpg',
+  bgColor: 'bg-secondary/10'
+}
+
   ];
 
   return (

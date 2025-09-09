@@ -22,8 +22,8 @@ const Cart = () => {
     return (
       <>
         <Helmet>
-          <title>Shopping Cart - Boutique Fashion Store</title>
-          <meta name="description" content="Your shopping cart is empty. Start shopping for premium fashion at Boutique." />
+          <title>Shopping Cart - FreshWear Fashion Store</title>
+          <meta name="description" content="Your shopping cart is empty. Start shopping for premium fashion at FreshWear." />
         </Helmet>
 
         <div className="container mx-auto px-4 py-16">
@@ -50,7 +50,7 @@ const Cart = () => {
   return (
     <>
       <Helmet>
-        <title>Shopping Cart ({getTotalItems()} items) - Boutique Fashion Store</title>
+        <title>Shopping Cart ({getTotalItems()} items) - FreshWear Fashion Store</title>
         <meta name="description" content={`Review your ${getTotalItems()} selected items and proceed to checkout. Total: ${formatPrice(finalTotal)}`} />
       </Helmet>
 

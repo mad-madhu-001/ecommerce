@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="text-2xl font-bold">
               <span className="bg-gradient-warm bg-clip-text text-transparent">
-                Boutique
+                FreshWear
               </span>
             </Link>
             <p className="text-white/80 leading-relaxed">
@@ -98,15 +98,15 @@ const Footer = () => {
             <div className="space-y-2 pt-4">
               <div className="flex items-center space-x-2 text-white/80">
                 <Phone className="h-4 w-4" />
-                <span className="text-sm">+91 98765 43210</span>
+                <span className="text-sm">+91 9876543210</span>
               </div>
               <div className="flex items-center space-x-2 text-white/80">
                 <Mail className="h-4 w-4" />
-                <span className="text-sm">hello@boutique.com</span>
+                <span className="text-sm">9876xyz@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2 text-white/80">
                 <MapPin className="h-4 w-4" />
-                <span className="text-sm">Mumbai, India</span>
+                <span className="text-sm">Visakhapatnam, India</span>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@ const Footer = () => {
         <div className="border-t border-white/20 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-white/60 text-sm">
-              © 2024 Boutique. All rights reserved.
+              © 2025 FreshWear. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <Link to="/privacy" className="text-white/60 hover:text-warm-orange transition-smooth">

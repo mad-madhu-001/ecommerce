@@ -57,7 +57,7 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Fashion boutique colors
+        // Fashion FreshWear colors
         "warm-orange": "hsl(var(--warm-orange))",
         "rose-accent": "hsl(var(--rose-accent))",
         charcoal: "hsl(var(--charcoal))",

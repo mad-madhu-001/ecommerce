@@ -16,8 +16,9 @@ const Header = () => {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
-      navigate(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+      navigate(`/collections?search=${encodeURIComponent(searchQuery.trim())}`);
       setSearchQuery('');
+      setIsMenuOpen(false); // close menu on mobile after search
     }
   };
 
@@ -39,7 +40,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="text-2xl font-bold text-foreground">
             <span className="bg-gradient-warm bg-clip-text text-transparent">
-              Boutique
+              FreshWear
             </span>
           </Link>
 
@@ -78,7 +79,7 @@ const Header = () => {
 
           {/* Action buttons */}
           <div className="flex items-center space-x-3">
-            {/* Mobile search */}
+            {/* Mobile search redirect */}
             <Button
               variant="ghost"
               size="icon"

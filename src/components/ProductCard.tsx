@@ -73,7 +73,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
               className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-smooth"
               onClick={handleQuickAdd}
             >
-              <ShoppingBag className="h-4 w-4 mr-2" />
+              <ShoppingBag className="h-4 w-4 mr-1" />
               Quick Add
             </Button>
           )}

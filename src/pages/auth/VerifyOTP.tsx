@@ -7,6 +7,7 @@ import { ArrowLeft, Shield, RotateCcw } from 'lucide-react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { toast } from '@/hooks/use-toast';
 
+
 const VerifyOTP = () => {
   const [otp, setOtp] = useState(['', '', '', '', '', '']);
   const [timeLeft, setTimeLeft] = useState(60);

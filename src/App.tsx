@@ -14,6 +14,8 @@ import Login from "./pages/auth/Login";
 import Signup from "./pages/auth/Signup";
 import VerifyOTP from "./pages/auth/VerifyOTP";
 import NotFound from "./pages/NotFound";
+import OTPLogin from "./pages/auth/VerifyOTP";
+
 
 const queryClient = new QueryClient();
 
@@ -25,6 +27,7 @@ const App = () => (
         <Sonner />
         <BrowserRouter>
           <Routes>
+            <Route path="/auth/otp-login" element={<OTPLogin />} />
             <Route path="/" element={<MainLayout />}>
               <Route index element={<Home />} />
               <Route path="collections" element={<Collections />} />

@@ -18,9 +18,9 @@ const Collections = () => {
   return (
     <>
       <Helmet>
-        <title>Collections - Premium Fashion at Boutique</title>
+        <title>Collections - Premium Fashion at FreshWear</title>
         <meta name="description" content="Explore our curated fashion collections including new arrivals, featured items, and top-rated clothing for men, women, and kids." />
-        <meta name="keywords" content="fashion collections, new arrivals, featured clothing, boutique fashion, premium wear" />
+        <meta name="keywords" content="fashion collections, new arrivals, featured clothing, freshwear, premium wear" />
       </Helmet>
 
       <div className="container mx-auto px-4 py-8">
@@ -117,21 +117,21 @@ const Collections = () => {
                 title: 'Women\'s Fashion',
                 description: 'Elegant ethnic wear and contemporary styles',
                 count: sampleProducts.filter(p => p.category === 'women').length,
-                image: '/lovable-uploads/ead80a58-46cb-492f-a0a9-14d813528f5b.png'
+                image: '/ecommerce-uploads/women-8.jpg'
               },
               {
                 category: 'men',
                 title: 'Men\'s Collection',
                 description: 'Sophisticated looks for every occasion',
                 count: sampleProducts.filter(p => p.category === 'men').length,
-                image: '/lovable-uploads/78103555-4bf0-4de0-9c29-c1aec986ac54.png'
+                image: '/ecommerce-uploads/men-3.jpg'
               },
               {
                 category: 'kids',
                 title: 'Kids Wear',
                 description: 'Comfortable and delightful outfits',
                 count: sampleProducts.filter(p => p.category === 'kids').length,
-                image: '/lovable-uploads/b97b5af5-ace2-4776-938b-462fc795810c.png'
+                image: '/ecommerce-uploads/boyy.jpg'
               }
             ].map((collection) => (
               <Card key={collection.category} className="group hover:shadow-elegant transition-smooth overflow-hidden">

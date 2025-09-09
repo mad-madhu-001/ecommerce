@@ -65,9 +65,9 @@ const ProductDetail = () => {
   return (
     <>
       <Helmet>
-        <title>{product.name} - Boutique Fashion Store</title>
+        <title>{product.name} - FreshWear Fashion Store</title>
         <meta name="description" content={product.description} />
-        <meta name="keywords" content={`${product.name}, ${product.category}, fashion, boutique, ${product.tags.join(', ')}`} />
+        <meta name="keywords" content={`${product.name}, ${product.category}, fashion, freshwear, ${product.tags.join(', ')}`} />
         <meta property="og:title" content={product.name} />
         <meta property="og:description" content={product.description} />
         <meta property="og:image" content={product.images[0]} />

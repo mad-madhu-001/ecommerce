@@ -52,6 +52,7 @@ const CategoryPage = () => {
       
       return true;
     });
+    
 
     // Sort products
     switch (sortBy) {
@@ -106,15 +107,15 @@ const CategoryPage = () => {
 
   const pageTitle = category ? `${category.name}'s Fashion` : 'All Products';
   const pageDescription = category 
-    ? `Discover the latest ${category.name.toLowerCase()}'s fashion collection at Boutique. Premium quality clothing with unbeatable prices.`
+    ? `Discover the latest ${category.name.toLowerCase()}'s fashion collection at FreshWear. Premium quality clothing with unbeatable prices.`
     : 'Browse our complete collection of premium fashion for men, women, and kids.';
 
   return (
     <>
       <Helmet>
-        <title>{pageTitle} - Boutique Fashion Store</title>
+        <title>{pageTitle} - FreshWear Fashion Store</title>
         <meta name="description" content={pageDescription} />
-        <meta name="keywords" content={`${category?.name.toLowerCase() || 'fashion'}, clothing, boutique, online shopping, premium fashion`} />
+        <meta name="keywords" content={`${category?.name.toLowerCase() || 'fashion'}, clothing, freshwear, online shopping, premium fashion`} />
       </Helmet>
 
       <div className="container mx-auto px-4 py-8">
